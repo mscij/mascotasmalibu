@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contacto</title>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/font-awesome.css">
+    
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/TMForm.js"></script> 
+     
+    
+    <!--[if lt IE 9]>
+    <div style='text-align:center'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>  
+    <script src="assets/assets/js/html5shiv.js"></script> 
+    <script src="assets/assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<!--==============================header=================================-->
+<header id="header" class="pagesheader">
+    <div class="container">
+      <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img alt="plumbing" src="img/logo.png"></a></h1>
+          <div class="menuheader">
+            <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation">
+                <ul class="nav sf-menu">
+                  <li><a href="index.html">INICIO</a></li>
+                  <li><a href="index-1.html">NOSOTROS</a>
+                    
+                  </li>
+                  <li><a href="index-2.html">GALERIA</a></li>
+                  <li><a href="index-3.html">BLOG</a></li>
+                  <li class="last active"><a href="index-4.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+          </div>
+    </div>
+</header>
+<!--==============================content=================================-->
+<div id="content">
+    <!--==============================row10=================================-->
+    <div class="row_10">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 gmap">
+                    <h2>INFO DE CONTACTO</h2>
+                    <div class="map"><iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe></div>
+                    
+                </div>  
+             </div> 
+             <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 address">
+                    <h2>DIRECCION</h2>
+                    <address>
+                        <div class="info">
+                            <strong>Address 1:</strong>
+                            <p>The Company Name Inc.<br>8901 Marmora Road, Glasgow, D04 89GR.</p>
+                            <strong>Telephones:</strong>
+                        	<p>+1 800 559 6580<br>+1 800 603 6035</p>
+                            <strong>Address 2:</strong>
+                            <p>The Company Name Inc.<br>9863 - 9867 Mill Road,<br>Cambridge, MG09 99HT.</p>
+                        </div>
+                    </address>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 address">
+                    <h2>SUGERENCIAS</h2>
+                    <form id="contact-form" class="contact-form">
+                      <div class="success-message">Formulario de contacto enviado.</div>
+                      <div class="coll-1">
+                          <p class="mbot3">Nombre*</p>
+                          <label class="name">
+                            <input type="text" placeholder="" data-constraints="@Required @JustLetters" />
+                            <span class="empty-message">*Campo requerido.</span>
+                            <span class="error-message">*No es un nombre valido.</span>
+                          </label>
+                      </div>
+                      <div class="coll-2">
+                          <p class="mbot3">E-mail*</p>
+                          <label class="email">
+                            <input type="text" placeholder="" data-constraints="@Required @Email" />
+                            <span class="empty-message">*Campo requerido.</span>
+                            <span class="error-message">*No es un email valido.</span>
+                          </label>
+                      </div>
+                      <div class="coll-3">
+                          <p class="mbot3">Telefono</p>
+                          <label class="phone">
+                            <input type="text" placeholder="" data-constraints="@JustNumbers"/>
+                            <span class="empty-message">*Campo requerido.</span>
+                            <span class="error-message">*No es un telefono valido.</span>
+                          </label>
+                      </div>
+                      <label class="message">
+                        <span class="mbot3">Mensaje*</span>
+                        <textarea placeholder="" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                        <span class="empty-message">*Campo requerido.</span>
+                        <span class="error-message">*Mensaje muy corto.</span>
+                      </label>
+                      <div>
+                        <a href="#" data-type="submit" class="btn btn-primary btn4">Enviar</a>
+                        <p class="req">* Campo requerido</p>
+                      </div>  
+                    </form>
+                </div>
+             </div> 
+        </div>
+    </div>
+</div>
+<!--==============================footer=================================-->
+<footer>
+    <div class="container">
+        <div class="footerrow">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="pull-right">
+                        <ul class="social_icons clearfix">
+                             <li><a href="#"><img src="img/follow_icon1.png" alt=""></a></li>
+                             <li><a href="#"><img src="img/follow_icon2.png" alt=""></a></li>
+                             <li><a href="#"><img src="img/follow_icon3.png" alt=""></a></li>
+                             <li><a href="#"><img src="img/follow_icon4.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <p class="footerpriv"><a class="privacylink2" href="index.html">My pets</a> &copy; <span id="copyright-year"></span> All Rights Reserved <img src="img/imgline2.png" alt=""> <a class="privacylink" href="index-5.html">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body>
+</html>
